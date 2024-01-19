@@ -22,7 +22,8 @@ public class CucumberSteps extends TestBase {
 
     @Before ("@LoginToCheckout")
     public void setup() {
-        browserSetUp(AppConfig.readFromConfig("url"));
+        browserSetupHeadless(AppConfig.readFromConfig("url"));
+//        browserSetUp(AppConfig.readFromConfig("url"));
         loginPage = new LoginPage(driver);
         productsPage = new ProductsPage(driver);
         shoppingCartPage = new ShoppingCartPage(driver);

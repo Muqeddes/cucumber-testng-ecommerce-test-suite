@@ -24,8 +24,8 @@ public class LoginToCheckoutTest extends TestBase {
 
     @BeforeClass
     public void setUp(ITestContext context) {
-        browserSetUp(AppConfig.readFromConfig("url"));
-//        browserSetupHeadless(AppConfig.readFromConfig("url"));
+//        browserSetUp(AppConfig.readFromConfig("url"));
+        browserSetupHeadless(AppConfig.readFromConfig("url"));
         loginPage = new LoginPage(driver);
         productsPage = new ProductsPage(driver);
         shoppingCartPage = new ShoppingCartPage(driver);
