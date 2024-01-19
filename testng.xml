@@ -5,11 +5,11 @@
         <listener class-name="org.testng.reporters.EmailableReporter2"> </listener>
     </listeners>
 
-<!--    <test name="Testng Tests">-->
-<!--        <classes>-->
-<!--            <class name="testng.LoginToCheckoutTest"> </class>-->
-<!--        </classes>-->
-<!--    </test>-->
+    <test name="Testng Tests">
+        <classes>
+            <class name="testng.LoginToCheckoutTest"> </class>
+        </classes>
+    </test>
 
     <test name="Cucumber Test">
         <classes>
