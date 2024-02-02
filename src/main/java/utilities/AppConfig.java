@@ -21,18 +21,4 @@ public class AppConfig {
     }
 
 
-//    public static String configReader(String fileName, String key) {
-//        Properties properties = new Properties();
-//        String workingDirectory = System.getProperty("user.dir");
-//        String value;
-//        try {
-//            properties.load(new FileInputStream(workingDirectory + File.separator + fileName));
-//        } catch (IOException e) {
-//            throw new RuntimeException(e);
-//        }
-//        value = properties.getProperty(key);
-//        return value;
-//    }
-
-
 }
