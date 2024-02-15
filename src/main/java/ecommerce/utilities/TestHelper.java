@@ -1,4 +1,4 @@
-package utilities;
+package ecommerce.utilities;
 
 import com.github.javafaker.Faker;
 import org.joda.time.DateTime;

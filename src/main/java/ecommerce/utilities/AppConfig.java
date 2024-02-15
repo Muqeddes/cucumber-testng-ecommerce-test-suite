@@ -1,4 +1,4 @@
-package utilities;
+package ecommerce.utilities;
 
 import java.io.FileInputStream;
 import java.io.IOException;

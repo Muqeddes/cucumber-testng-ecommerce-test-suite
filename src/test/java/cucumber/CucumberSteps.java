@@ -7,12 +7,12 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.testng.Assert;
-import pages.CheckoutPage;
-import pages.LoginPage;
-import pages.ProductsPage;
-import pages.ShoppingCartPage;
-import utilities.AppConfig;
-import utilities.TestBase;
+import ecommerce.pages.CheckoutPage;
+import ecommerce.pages.LoginPage;
+import ecommerce.pages.ProductsPage;
+import ecommerce.pages.ShoppingCartPage;
+import ecommerce.utilities.AppConfig;
+import ecommerce.utilities.TestBase;
 
 public class CucumberSteps extends TestBase {
     LoginPage loginPage;

@@ -1,4 +1,4 @@
-package utilities;
+package ecommerce.utilities;
 
 import org.apache.commons.io.FileUtils;
 

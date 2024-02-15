@@ -6,13 +6,13 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
-import pages.CheckoutPage;
-import pages.LoginPage;
-import pages.ProductsPage;
-import pages.ShoppingCartPage;
-import utilities.AppConfig;
-import utilities.TestBase;
-import utilities.TestResultListener;
+import ecommerce.pages.CheckoutPage;
+import ecommerce.pages.LoginPage;
+import ecommerce.pages.ProductsPage;
+import ecommerce.pages.ShoppingCartPage;
+import ecommerce.utilities.AppConfig;
+import ecommerce.utilities.TestBase;
+import ecommerce.utilities.TestResultListener;
 
 @Listeners(TestResultListener.class)
 public class LoginToCheckoutTest extends TestBase {
