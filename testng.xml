@@ -7,13 +7,13 @@
 
     <test name="Testng Tests">
         <classes>
-            <class name="testng.LoginToCheckoutTest"> </class>
+            <class name="ecommerce.testng.LoginToCheckoutTest"> </class>
         </classes>
     </test>
 
     <test name="Cucumber Test">
         <classes>
-            <class name="cucumber.CucumberRunnerTests">
+            <class name="ecommerce.cucumber.CucumberRunnerTests">
             </class>
         </classes>
     </test>
