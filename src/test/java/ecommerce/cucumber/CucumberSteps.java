@@ -1,4 +1,4 @@
-package cucumber;
+package ecommerce.cucumber;
 
 import io.cucumber.java.After;
 import io.cucumber.java.Before;

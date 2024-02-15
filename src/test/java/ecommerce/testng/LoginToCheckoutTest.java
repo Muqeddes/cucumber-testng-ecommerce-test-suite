@@ -1,4 +1,4 @@
-package testng;
+package ecommerce.testng;
 
 import org.testng.Assert;
 import org.testng.ITestContext;
