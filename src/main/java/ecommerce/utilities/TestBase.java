@@ -21,7 +21,6 @@ public class TestBase {
 
     }
 
-
     public void closeBrowser() {
         driver.close();
         driver.quit();
